@@ -57,7 +57,9 @@
     <Compile Include="WordDigest.cs" />
     <Compile Include="WordReader.cs" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <None Include="Properties\LICENSE" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
     <PostBuildEvent>
